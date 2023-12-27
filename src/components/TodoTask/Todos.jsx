@@ -91,7 +91,7 @@ const Todos = () => {
           )}
 
           <>
-            '{/*If todos exist then this div will be displayed*/}'
+            {/*If todos exist then this div will be displayed*/}
             {todos &&
               todos.map((todo, index) => (
                 <TodoList
